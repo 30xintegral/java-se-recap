@@ -1,6 +1,9 @@
 package Algorithms;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.Objects;
 
 public class ArrayOperations {
     public static void bubbleSort(int[] arr){
@@ -51,9 +54,39 @@ public class ArrayOperations {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{1,62,0,-1};
-        bubbleSort(arr);
-        System.out.println(Arrays.toString(arr));
+        ArrayList<Integer> integers = new ArrayList<>(List.of(1, 2, 3, 4, 5, 6));
+        integers.add(0, 100);
+        System.out.println(integers);
+
+
+
+
+
+
+
+        /**
+         *
+         *
+
+         int[] a = {1,2};
+         int[] b = {1,2};
+         these objects are not same
+         System.out.println(a==b); //false
+         System.out.println(a.equals(b)); //false
+         System.out.println(Objects.equals(a, b)); //false
+         //while
+         String s1 = "a";
+         String s2 = "a";
+         System.out.println(s1==s2); //prints true
+
+         String z = new String("aa");
+         String z1 = new String("aa");
+         System.out.println(z==z1);//prints false
+         System.out.println(z.equals(z1));//prints true
+
+         * @author Elvin Mahmudzada
+         * @subject equality of objects
+         */
 
     }
 }

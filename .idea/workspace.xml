@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11bd6877-3f48-4257-b329-bd848250fca0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Algorithms/StringOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/AbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/ArrayOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/ArrayOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/ArrayOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,7 +51,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.StringOperations">
     <configuration name="ArrayOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.ArrayOperations" />
       <module name="Java-SE-Recap" />
@@ -54,8 +59,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms.StringOperations" />
+      <module name="Java-SE-Recap" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringOperations" />
         <item itemvalue="Application.ArrayOperations" />
       </list>
     </recent_temporary>
@@ -71,6 +90,10 @@
       <workItem from="1721503997457" duration="2923000" />
       <workItem from="1721719131858" duration="15000" />
       <workItem from="1721935207982" duration="1289000" />
+      <workItem from="1722019504791" duration="116000" />
+      <workItem from="1723060102500" duration="1218000" />
+      <workItem from="1723642631000" duration="844000" />
+      <workItem from="1723710860098" duration="4020000" />
     </task>
     <servers />
   </component>
