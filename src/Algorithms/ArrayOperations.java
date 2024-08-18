@@ -53,12 +53,32 @@ public class ArrayOperations {
         return i + 1;
     }
 
+
+    public static String getSpreadsheetNotation(long n) {
+        long row = (n - 1) / 702 + 1;
+
+        long columnIndex = (n - 1) % 702 + 1;
+
+        StringBuilder columnBuilder = new StringBuilder();
+        while (columnIndex > 0) {
+            columnIndex--; // Convert to zero-based index
+            char c = (char) (columnIndex % 26 + 'A');
+            columnBuilder.insert(0, c);
+            columnIndex /= 26;
+        }
+
+
+        return row + columnBuilder.toString();
+}
+
     public static void main(String[] args) {
         ArrayList<Integer> integers = new ArrayList<>(List.of(1, 2, 3, 4, 5, 6));
         integers.add(0, 100);
         System.out.println(integers);
 
-
+        int i = 74/26;
+        int r = 74%26;
+        System.out.println(getSpreadsheetNotation(729));
 
 
 

@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11bd6877-3f48-4257-b329-bd848250fca0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms/StringOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algorithms/ArrayOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/ArrayOperations.java" afterDir="false" />
     </list>
@@ -51,7 +47,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringOperations">
+  <component name="RunManager" selected="Application.ArrayOperations">
     <configuration name="ArrayOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms.ArrayOperations" />
       <module name="Java-SE-Recap" />
@@ -74,8 +70,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringOperations" />
         <item itemvalue="Application.ArrayOperations" />
+        <item itemvalue="Application.StringOperations" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +89,8 @@
       <workItem from="1722019504791" duration="116000" />
       <workItem from="1723060102500" duration="1218000" />
       <workItem from="1723642631000" duration="844000" />
-      <workItem from="1723710860098" duration="4020000" />
+      <workItem from="1723710860098" duration="4200000" />
+      <workItem from="1723919753157" duration="4876000" />
     </task>
     <servers />
   </component>
