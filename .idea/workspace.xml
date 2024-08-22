@@ -7,6 +7,7 @@
     <list default="true" id="11bd6877-3f48-4257-b329-bd848250fca0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Algorithms/ArrayOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/ArrayOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Algorithms/StringOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/StringOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +92,9 @@
       <workItem from="1723642631000" duration="844000" />
       <workItem from="1723710860098" duration="4200000" />
       <workItem from="1723919753157" duration="4876000" />
+      <workItem from="1724007574190" duration="1314000" />
+      <workItem from="1724224022521" duration="1575000" />
+      <workItem from="1724260707906" duration="1628000" />
     </task>
     <servers />
   </component>

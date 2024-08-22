@@ -45,7 +45,6 @@ public class ArrayOperations {
             }
         }
 
-        // Swap array[i+1] and array[high] (or pivot)
         int temp = array[i + 1];
         array[i + 1] = array[high];
         array[high] = temp;
@@ -54,22 +53,26 @@ public class ArrayOperations {
     }
 
 
-    public static String getSpreadsheetNotation(long n) {
-        long row = (n - 1) / 702 + 1;
+    public static int binarySearch(int[] arr, int target){
+        int start = 0;
+        int end = arr.length -1;
 
-        long columnIndex = (n - 1) % 702 + 1;
+        int mid=0;
+        while(start<=end){
+            mid = start + ((end-start)/2);
 
-        StringBuilder columnBuilder = new StringBuilder();
-        while (columnIndex > 0) {
-            columnIndex--; // Convert to zero-based index
-            char c = (char) (columnIndex % 26 + 'A');
-            columnBuilder.insert(0, c);
-            columnIndex /= 26;
+            if (target<arr[mid]){
+                end = mid -1;
+            }
+            else if (target>arr[mid]){
+                start = mid + 1;
+            }
+            else{
+                return mid;
+            }
         }
-
-
-        return row + columnBuilder.toString();
-}
+        return mid;
+    }
 
     public static void main(String[] args) {
         ArrayList<Integer> integers = new ArrayList<>(List.of(1, 2, 3, 4, 5, 6));
@@ -78,10 +81,8 @@ public class ArrayOperations {
 
         int i = 74/26;
         int r = 74%26;
-        System.out.println(getSpreadsheetNotation(729));
 
-
-
+        System.out.println(1<<2);
 
 
         /**
