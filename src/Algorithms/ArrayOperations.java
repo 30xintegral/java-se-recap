@@ -82,19 +82,28 @@ public class ArrayOperations {
         int i = 74/26;
         int r = 74%26;
 
-        System.out.println(1<<2);
+        String sz = "A";
+        System.out.println(Arrays.toString(sz.getBytes()));
+        int x = 3;
+        int y = 8;
+        x = x ^ y;
+        y = x ^ y;
+        x = x ^ y;
+        System.out.println(x +  "," + y);
+
+
 
 
         /**
          *
          *
-
          int[] a = {1,2};
          int[] b = {1,2};
          these objects are not same
          System.out.println(a==b); //false
          System.out.println(a.equals(b)); //false
          System.out.println(Objects.equals(a, b)); //false
+         System.out.println(Arrays.equals(a,b)); // true
          //while
          String s1 = "a";
          String s2 = "a";
