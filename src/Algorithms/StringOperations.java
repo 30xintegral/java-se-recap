@@ -1,9 +1,11 @@
 package Algorithms;
 
+import java.util.Scanner;
+
 public class StringOperations {
     public static void main(String[] args) {
-        String s = "dajjaqi";
-        searchInString(s, 'j');
+        Scanner scanner = new Scanner(System.in);
+        
     }
 
     static boolean searchInString(String str, char c){
