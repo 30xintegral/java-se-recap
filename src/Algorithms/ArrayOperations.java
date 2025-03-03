@@ -82,6 +82,10 @@ public class ArrayOperations {
         int i = 74/26;
         int r = 74%26;
 
+
+        
+
+
         String sz = "A";
         System.out.println(Arrays.toString(sz.getBytes()));
         int x = 3;
@@ -90,6 +94,7 @@ public class ArrayOperations {
         y = x ^ y;
         x = x ^ y;
         System.out.println(x +  "," + y);
+
 
 
 
