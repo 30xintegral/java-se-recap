@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1737fd1-11b3-4534-8b74-74ca6d01af92" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OOP/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/ArrayOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algorithms/ArrayOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algorithms/Demo.java" beforeDir="false" />
-    </list>
+    <list default="true" id="c1737fd1-11b3-4534-8b74-74ca6d01af92" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Demo.executor": "Run",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -169,7 +161,7 @@
       <workItem from="1740249159661" duration="4022000" />
       <workItem from="1740335294570" duration="2259000" />
       <workItem from="1740402368138" duration="1816000" />
-      <workItem from="1741027845866" duration="453000" />
+      <workItem from="1741027845866" duration="550000" />
     </task>
     <servers />
   </component>
